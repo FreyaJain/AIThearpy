@@ -5,8 +5,8 @@ interface Props {}
 const Header: React.FC<Props> = ({}) => {
   return (
     <div className={styles.header}>
-      <Image src = "/logo.png" alt="main-logo" />
-      <h1>FARB</h1>
+      <Image src = "https://drive.google.com/thumbnail?id=1V2viL2AoK-7dpHTw8z4t_sA9n34mJ6n7" alt="main-logo" />
+      
     </div>
   );
 };

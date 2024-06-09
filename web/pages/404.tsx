@@ -11,7 +11,7 @@ const NotFound: React.FC<Props> = ({}) => {
         <div>
           <Image src="/logo.png" alt="main-logo" />
           <h1>Page Not Found.</h1>
-          <Link href={"/"}>Medical Health Chat Bot (MHCB)</Link>
+          <Link href={"/"}>AI_Therapy (Therapist Friend)</Link>
         </div>
       </div>
       <Footer />

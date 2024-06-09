@@ -10,7 +10,7 @@ const Main: React.FC<Props> = ({}) => {
   return (
     <div className={styles.main}>
       <div className={styles.main__header}>
-        <Image src="https://images-platform.99static.com//dk1l2RKPDF3eYddq1llIkmYQqMU=/512x488:1176x1151/fit-in/500x500/99designs-contests-attachments/140/140941/attachment_140941872" alt="main-logo" />
+        <Image src="https://drive.google.com/thumbnail?id=1V2viL2AoK-7dpHTw8z4t_sA9n34mJ6n7"alt="main-logo" />
         <h1>The AI Therapist</h1>
         <p></p>
       </div>

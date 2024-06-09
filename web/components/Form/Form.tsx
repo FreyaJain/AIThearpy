@@ -54,6 +54,7 @@ const Form: React.FC<Props> = ({}) => {
       <Button isLoading={loading} disabled={!!!message} type="submit">
         Send
       </Button>
+      <Button>Record</Button>
     </form>
   );
 };

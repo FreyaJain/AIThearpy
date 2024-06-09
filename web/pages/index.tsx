@@ -11,9 +11,9 @@ const Welcome: React.FC<Props> = ({}) => {
     <div className={styles.welcome}>
       <div className={styles.welcome__main}>
         <div className={styles.welcome__main__container}>
-          <Image src="/logo.jpeg" alt="logo" />
+          <Image src="https://drive.google.com/thumbnail?id=1V2viL2AoK-7dpHTw8z4t_sA9n34mJ6n7" alt="logo" />
           <p>
-            Welcome to the <strong>Medical Health Chat Bot (MHCB)</strong>. This
+            Welcome to <strong> AI - THERAPY</strong>. This
             is an AI chatbot tool for communicating with a therapist bot in real
             time. If you want a therapist to chat with click Start Chatting
             Button.
