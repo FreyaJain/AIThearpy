@@ -14,7 +14,7 @@ class Query(graphene.ObjectType):
             language= "python",
             libraries= ["pytorch", "torchtext", "spacy"],
             main= "Mental Health Conversation Bot (Bot)",
-            programmer= "@crispengari"
+            programmer= "Byte-system"
         )
 
 class ChatWithBotMutation(graphene.Mutation):
@@ -24,7 +24,7 @@ class ChatWithBotMutation(graphene.Mutation):
     
     def mutate(self, info, input, **kwargs):
         try:
-            res = predict_tag(mhcb_model, input.get('message'), device)
+            res = predict_tag(ai_therapy_model, input.get('message'), device)
             intent = list(filter(lambda x: x['tag'] == res.tag, intents))[0]
             message = choice(
                 intent['responses']
